@@ -27,6 +27,14 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
       ),
+      TextField(
+        decoration:
+            InputDecoration(border: OutlineInputBorder(), hintText: 'Step 1'),
+      ),
+      TextField(
+        decoration: InputDecoration(
+            border: OutlineInputBorder(), hintText: 'FIND THE RESTURANTS'),
+      ),
     ]));
   }
 }
