@@ -24,12 +24,12 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               DecoratedGoogleFontText(
-                'ESCUDERP',
+                'ESCUDERO',
                 fontMethod: GoogleFonts.rancho,
                 fontSize: 40,
                 fontWeight: FontWeight.w800,
                 borderWidth: 1.5,
-                borderColor: Colors.yellow[800],
+                borderColor: Colors.orange[800],
                 shadows: const [
                   Shadow(
                       color: Colors.black, blurRadius: 4, offset: Offset(4, 4))

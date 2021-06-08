@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:decorated_text/decorated_text.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
 class MyApp extends StatelessWidget {
   const MyApp();
   @override
@@ -17,13 +16,25 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              DecoratedText(
+                'ESCUDERO',
+                borderColor: Colors.black,
+                borderWidth: 3,
+                fontSize: 40,
+                fontWeight: FontWeight.w800,
+                shadows: [
+                  Shadow(
+                      color: Colors.black, blurRadius: 4, offset: Offset(4, 4))
+                ],
+                fillGradient: LinearGradient(colors: [Colors.blue, Colors.red]),
+              ),
               DecoratedGoogleFontText(
-                'ESCUDERP',
+                'FOOD',
                 fontMethod: GoogleFonts.rancho,
                 fontSize: 40,
                 fontWeight: FontWeight.w800,
                 borderWidth: 1.5,
-                borderColor: Colors.yellow[800],
+                borderColor: Colors.orange[800],
                 shadows: const [
                   Shadow(
                       color: Colors.black, blurRadius: 4, offset: Offset(4, 4))
