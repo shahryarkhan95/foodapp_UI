@@ -3,12 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:decorated_text/decorated_text.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'screen2.dart';
-import 'screen3.dart';
-
-void main() {
-  runApp(MyApp());
-}
 
 class MyApp extends StatelessWidget {
   const MyApp();
