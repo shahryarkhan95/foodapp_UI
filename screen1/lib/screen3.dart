@@ -35,6 +35,15 @@ class _HomePageState extends State<HomePage> {
         decoration: InputDecoration(
             border: OutlineInputBorder(), hintText: 'FIND THE RESTURANTS'),
       ),
+
+      // RaisedButton (
+      //   onPressed : (){
+      //     Navigator.of (context.push(MaterialPageRoute(
+      //       builder: (context) => screen2
+      //     >)
+      //     )))
+      //   }
+      // ),
     ]));
   }
 }
