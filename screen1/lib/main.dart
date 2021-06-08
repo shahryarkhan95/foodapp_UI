@@ -40,8 +40,8 @@ class MyApp extends StatelessWidget {
                   stops: const [0.2, 0.55, 0.55, 0.75],
                   colors: [
                     Colors.white,
-                    Colors.yellow[500],
-                    Colors.yellow[800],
+                    Colors.orange[500],
+                    Colors.orange[800],
                     Colors.yellow[500]
                   ],
                 ),
