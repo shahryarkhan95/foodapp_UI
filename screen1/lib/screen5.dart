@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
           gradient: LinearGradient(
             colors: [
               const Color(0xFFFFECB3),
-              const Color(0xFFFFD54F),
+              const Color(0xFF9CCC65),
             ],
             begin: Alignment.centerLeft,
             end: Alignment.centerRight,
@@ -29,11 +29,11 @@ class _HomePageState extends State<HomePage> {
       ),
       TextField(
         decoration:
-            InputDecoration(border: OutlineInputBorder(), hintText: 'Step 1'),
+            InputDecoration(border: OutlineInputBorder(), hintText: 'Step 3'),
       ),
       TextField(
         decoration: InputDecoration(
-            border: OutlineInputBorder(), hintText: 'FIND THE RESTURANTS'),
+            border: OutlineInputBorder(), hintText: 'FAST DELIVERY'),
       ),
 
       // RaisedButton (

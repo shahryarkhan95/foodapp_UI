@@ -29,11 +29,11 @@ class _HomePageState extends State<HomePage> {
       ),
       TextField(
         decoration:
-            InputDecoration(border: OutlineInputBorder(), hintText: 'Step 1'),
+            InputDecoration(border: OutlineInputBorder(), hintText: 'Step 2'),
       ),
       TextField(
         decoration: InputDecoration(
-            border: OutlineInputBorder(), hintText: 'FIND THE RESTURANTS'),
+            border: OutlineInputBorder(), hintText: 'CHOOSE YOUR FOOD VARIETY'),
       ),
 
       // RaisedButton (
